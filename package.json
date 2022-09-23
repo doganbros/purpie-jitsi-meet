@@ -129,7 +129,8 @@
     "uuid": "8.3.2",
     "wasm-check": "2.0.1",
     "windows-iana": "^3.1.0",
-    "zxcvbn": "4.4.2"
+    "zxcvbn": "4.4.2",
+    "purpie-jitsi-module": "github:doganbros/purpie-jitsi-module"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",

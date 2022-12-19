@@ -1,5 +1,6 @@
 // @flow
 
+import PurpieJitsiModule from 'purpie-jitsi-module';
 import { jitsiLocalStorage } from '@jitsi/js-utils';
 import _ from 'lodash';
 import React, { Component, Fragment } from 'react';
@@ -166,6 +167,7 @@ export default class BaseApp extends Component<*, State> {
                             { this._createExtraElement() }
                             { this._renderDialogContainer() }
                         </Fragment>
+                        <PurpieJitsiModule store = { store }/>
                     </Provider>
                 </I18nextProvider>
             );
